@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="网络编辑.">
+	<main>
+		<svg>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/blog/">Blog</a>
+            <a href="/index/">Index</a>
+            <a href="/notes/">Notes</a>
+        </svg>
+		<h1>课程笔记<span class="text-gradient">李相辉</span></h1>
+	<ul>
+        <li><a href="/md/2/">Astro的安装与部署</a></li>
+    </ul>
+    </main>
+</Layout>
+
+<style>
+	h1 {color: coral;
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+    a{
+        color: coral;
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em; 
+    }
+</style>

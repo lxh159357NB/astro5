@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<svg>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/blog/">Blog</a>
+            <a href="/index/">Index</a>
+            <a href="/notes/">Notes</a>
+        </svg>
+		<h1>关于<span class="text-gradient">李相辉</span></h1>
+	</main>
+</Layout>
+
+<style>
+	h1 {color: brown;
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+</style>
