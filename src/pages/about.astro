@@ -1,17 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import NavigationBar from '../components/NavigationBar.astro';
 import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<svg>
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/blog/">Blog</a>
-            <a href="/index/">Index</a>
-            <a href="/notes/">Notes</a>
-        </svg>
+		<NavigationBar />
+		<Footer/>
 		<h1>关于<span class="text-gradient">李相辉</span></h1>
 	</main>
 </Layout>
