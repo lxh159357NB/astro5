@@ -37,32 +37,34 @@ import Card from '../components/Card.astro';
 		</svg>
 		<NavigationBar />
 		<Footer/>
-		<h1>P211012623<span class="text-gradient">李相辉</span></h1>
+		<h1>陶喆<span class="text-gradient">的个人空间</span></h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			在这里你将深入了解陶喆，包括他的个人经历、专辑推荐、获奖经历等。
+			希望你能在这里找到你感兴趣的内容！
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+				href="https://baike.baidu.com/item/%E9%99%B6%E5%96%86/120592"
+				title="陶喆个人经历"
+				body="关于陶喆"
 			/>
 			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+				href="https://www.bilibili.com/video/BV1FGhHePEfr/?vd_source=4bf9674c5e2e99af97d93c7d2c8e8fb7"
+				title="陶喆专辑推荐"
+				body="了解陶喆的音乐创作"
 			/>
 			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				href="https://tieba.baidu.com/p/8890912295"
+				title="陶喆生涯的演唱会回顾"
+				body="认识不同风格的陶喆"
 			/>
 			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
+				href="https://tieba.baidu.com/p/1113020128"
+				title="陶喆的获奖经历"
+				body="了解陶喆的获奖经历"
+
 			/>
+
 		</ul>
 	</main>
 </Layout>
@@ -130,5 +132,11 @@ import Card from '../components/Card.astro';
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 		gap: 2rem;
 		padding: 0;
+	}
+	body {
+		background-image: url(https://ts1.cn.mm.bing.net/th/id/R-C.c88c7e3d938bae66ad81f2471436cea4?rik=2hqTIypwvgYYow&riu=http%3a%2f%2fi0.hdslb.com%2fbfs%2farchive%2f9dd84585354163a1bb9225074636355e735dc115.jpg&ehk=WHNDrTiCu%2biy3nNI42pS5CuLIuP2jjsWsmsH1oGjXl0%3d&risl=&pid=ImgRaw&r=0);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 </style>

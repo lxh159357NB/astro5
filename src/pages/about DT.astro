@@ -1,25 +1,45 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Footer from '../components/Footer.astro';
-import NavigationBar from '../components/NavigationBar.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+import NavigationBar from "../components/NavigationBar.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<NavigationBar />
-		<Footer/>
+		<Footer />
 		<h1>关于<span class="text-gradient">陶喆</span></h1>
 		<h2>
-			<p>陶喆（David Zee Tao),1969年7月11日出生于香港，祖籍江苏省南京市，华语流行乐男歌手、音乐制作人、词曲作者 [162]，毕业于加利福尼亚大学洛杉矶分校。</p>
-<p>1993年，陶喆以音乐制作人身份进入音乐圈；之后，他为张信哲、陈淑桦、郑中基等歌手制作专辑、创作歌曲。1997年，开始转型为歌手，并发行个人首张音乐专辑《David Tao》 [1]，将R&B风格的音乐引入中国台湾流行乐坛，并于次年凭借该专辑获得第9届台湾金曲奖最佳新人奖、最佳唱片制作人奖。1999年，凭借音乐专辑《I'm OK》获得第11届台湾金曲奖最佳专辑制作人奖。2002年，发行融合多种风格的音乐专辑《黑色柳丁》。2003年，获得第25届十大中文金曲全国最受欢迎男歌手银奖 ；同年，举行“Soul Power”演唱会 。</p>
-<p>2005年，发行音乐专辑《太平盛世》，该专辑获得第17届台湾金曲奖最佳流行音乐演唱专辑奖 ；同年，获得第5届全球华语歌曲排行榜最佳制作人奖。2006年，发行音乐专辑《太美丽》 [23] [84]。2007年，获得第7届全球华语歌曲排行榜最佳男歌手奖 [85]；同年，凭借歌曲《今天你要嫁给我》获得第18届台湾金曲奖年度最佳歌曲奖；同年，举行“1.2.3我们都是木头人”演唱会。2010年，凭借音乐专辑《69乐章》获得第21届台湾金曲奖最佳国语男歌手奖 。2013年，发行音乐专辑《再见你好吗》 。2014年，举行“小人物狂想曲”演唱会 。2021年，参加音乐励志节目《天赐的声音第二季》。2024年，举行“Soul Power II 世界巡回演唱会” 。</p>
+			<p>
+				陶喆（David Zee
+				Tao),1969年7月11日出生于香港，祖籍江苏省南京市，华语流行乐男歌手、音乐制作人、词曲作者
+				[162]，毕业于加利福尼亚大学洛杉矶分校。
+			</p>
+			<p>
+				1993年，陶喆以音乐制作人身份进入音乐圈；之后，他为张信哲、陈淑桦、郑中基等歌手制作专辑、创作歌曲。1997年，开始转型为歌手，并发行个人首张音乐专辑《David
+				Tao》
+				[1]，将R&B风格的音乐引入中国台湾流行乐坛，并于次年凭借该专辑获得第9届台湾金曲奖最佳新人奖、最佳唱片制作人奖。1999年，凭借音乐专辑《I'm
+				OK》获得第11届台湾金曲奖最佳专辑制作人奖。2002年，发行融合多种风格的音乐专辑《黑色柳丁》。2003年，获得第25届十大中文金曲全国最受欢迎男歌手银奖
+				；同年，举行“Soul Power”演唱会 。
+			</p>
+			<p>
+				2005年，发行音乐专辑《太平盛世》，该专辑获得第17届台湾金曲奖最佳流行音乐演唱专辑奖
+				；同年，获得第5届全球华语歌曲排行榜最佳制作人奖。2006年，发行音乐专辑《太美丽》
+				[23] [84]。2007年，获得第7届全球华语歌曲排行榜最佳男歌手奖
+				[85]；同年，凭借歌曲《今天你要嫁给我》获得第18届台湾金曲奖年度最佳歌曲奖；同年，举行“1.2.3我们都是木头人”演唱会。2010年，凭借音乐专辑《69乐章》获得第21届台湾金曲奖最佳国语男歌手奖
+				。2013年，发行音乐专辑《再见你好吗》
+				。2014年，举行“小人物狂想曲”演唱会
+				。2021年，参加音乐励志节目《天赐的声音第二季》。2024年，举行“Soul
+				Power II 世界巡回演唱会” 。
+			</p>
 		</h2>
 	</main>
 </Layout>
 
 <style>
-	h1 {color: brown;
+	h1 {
+		color: brown;
 		font-size: 4rem;
 		font-weight: 700;
 		line-height: 1;
@@ -27,18 +47,16 @@ import Card from '../components/Card.astro';
 		margin-bottom: 1em;
 	}
 	body {
-	background-image: url(https://ts1.cn.mm.bing.net/th/id/R-C.c88c7e3d938bae66ad81f2471436cea4?rik=2hqTIypwvgYYow&riu=http%3a%2f%2fi0.hdslb.com%2fbfs%2farchive%2f9dd84585354163a1bb9225074636355e735dc115.jpg&ehk=WHNDrTiCu%2biy3nNI42pS5CuLIuP2jjsWsmsH1oGjXl0%3d&risl=&pid=ImgRaw&r=0);
-	background-size: cover; 
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-  }
-  h2{
-
-  text-indent: 2em;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  margin-bottom: 1em;
-  color: rgb(255, 255, 255);
-
-  }
+		background-image: url(https://ts1.cn.mm.bing.net/th/id/R-C.c88c7e3d938bae66ad81f2471436cea4?rik=2hqTIypwvgYYow&riu=http%3a%2f%2fi0.hdslb.com%2fbfs%2farchive%2f9dd84585354163a1bb9225074636355e735dc115.jpg&ehk=WHNDrTiCu%2biy3nNI42pS5CuLIuP2jjsWsmsH1oGjXl0%3d&risl=&pid=ImgRaw&r=0);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	h2 {
+		text-indent: 2em;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		margin-bottom: 1em;
+		color: rgb(255, 255, 255);
+	}
 </style>
